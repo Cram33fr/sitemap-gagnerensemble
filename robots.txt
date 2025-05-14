@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Interdire les URLs système (si elles existent)
+Disallow: /admin/
+Disallow: /checkout/
+Disallow: /thank-you/
+Disallow: /cart/
+Disallow: /login/
+Disallow: /register/
+Disallow: /user/
+
+# Ajouter le sitemap externe
+Sitemap: https://cram33fr.github.io/sitemap-gagnerensemble/sitemap.xml
